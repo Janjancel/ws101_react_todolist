@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: poppins, sans-serif;
+  font-size: 2rem;
+  color: #239d60;
+}
+
+.App {
+  font-family: nunito sans, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1b1b1d;
+  height: 100vh;
+}
+
+form {
+  /* background-color: #8758ff; */
+  border: none;
+  cursor: pointer;
+  /* height: 50vh; */
+  padding: 2rem;
+}
+
+.TodoWrapper {
+  background-color: #212125;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 50px ;
+
+}
+
+.todo-input {
+  border: 0.5px solid #239d60;
+  cursor: pointer;
+  outline: none;
+  /* background-color: #cfcdd5; */
+  background-color: transparent;
+  padding: 9.5px 20px;
+  font-size: 0.8rem;  
+  /* border-radius: 4px; */
+  width: 200px;
+  color: #e8eaa1 ; 
+
+}
+
+.todo-input:active {
+  border: none;
+}
+
+.todo-input::placeholder {
+  color: #605a56;
+}
+
+.todo-btn {
+  background-color: #239d60;
+  color: #f7f39a;
+  border: none;
+  padding: 0.61rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #239d60;
+  color: #f7f39a;
+  padding: 0.05rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  width: 285px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #a3de83;
+  text-decoration: line-through;
+}
